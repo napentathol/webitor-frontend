@@ -1,3 +1,11 @@
 <div class="editor-wrapper" style="left:0; right:0;">
+<div id="editor-pane-left"></div>
+<div id="editor-pane-right">
 <div ui-ace="{useWrapMode:false, showGutter:true, theme:'monokai', mode:'xml', onLoad:aceLoaded, onChange:aceChanged}"></div>
 </div>
+<div id="editor-pane-resizer"
+	resizer="vertical"
+	resizer-width="6"
+	resizer-left="#editor-pane-left"
+	resizer-right="#editor-pane-right"></div>
+<div>

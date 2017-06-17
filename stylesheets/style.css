@@ -15,3 +15,30 @@
 	top: 50px;
 	bottom: 0;
 }
+
+#editor-pane-left {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 200px;
+	background-color: #00F;
+}
+
+#editor-pane-right {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 206px;
+}
+
+#editor-pane-resizer {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 200px;
+	width: 6px;
+	background-color: #0F0;
+	cursor: col-resize;
+}

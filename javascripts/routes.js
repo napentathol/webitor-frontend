@@ -1,5 +1,5 @@
 var ideApp ={
-    $ng : angular.module('ideApp', [ 'ngRoute', 'ngAnimate', 'ui.ace' ])
+    $ng : angular.module('ideApp', [ 'ngRoute', 'ngAnimate', 'ui.ace', 'editor.resizer'])
 };
 
 ideApp.$ng.config(['$routeProvider',
